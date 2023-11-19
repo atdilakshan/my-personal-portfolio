@@ -4,10 +4,14 @@ import { BrowserRouter } from "react-router-dom"
 import App from './App.tsx'
 import './index.css'
 
+import { ThemeProvider } from './hooks/themeContext.tsx';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/my-personal-portfolio">
-      <App />
-    </BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter basename="/my-personal-portfolio">
+        <App />
+      </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>,
 )
