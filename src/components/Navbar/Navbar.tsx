@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className="flex justify-between items-center w-11/12 m-auto p-2 "
+                className="flex justify-between items-center m-auto p-3 bg-white dark:bg-black" 
             >
                 <Brand />
                 <ThemeSwitch />

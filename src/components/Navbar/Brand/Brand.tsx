@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Brand.css'
 
 // json
+import basicData from "../../../data/basic.json";
 
 const Brand = () => {
 
@@ -11,7 +12,7 @@ const Brand = () => {
             <div
                 className=""
             >
-                <Link to="">&lt;kk/&gt;</Link>
+                <Link to="" className='text-black dark:text-white'>&lt;{basicData.name}/&gt;</Link>
             </div>
         </>
     );
