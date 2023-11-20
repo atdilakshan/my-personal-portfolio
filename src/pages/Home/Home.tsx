@@ -1,12 +1,15 @@
 import './Home.css'
+import About from './components/About';
+import Hero from './components/Hero';
 
 const Home = () => {
     return (
         <>
             <div
-                className="flex justify-between items-center w-11/12 m-auto p-2 "
+                className=""
             >
-                Home
+                <Hero />
+                <About />
             </div>
         </>
     );
