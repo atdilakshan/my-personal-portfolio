@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Charmonman";
+  src: local("Charmonman"),
+    url("./assets/fonts/Charmonman/Charmonman-Regular.ttf") format("truetype");
+}
