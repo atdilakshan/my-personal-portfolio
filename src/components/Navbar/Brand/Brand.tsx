@@ -9,11 +9,7 @@ const Brand = () => {
 
     return (
         <>
-            <div
-                className=""
-            >
-                <Link to="" className='text-black dark:text-white'>&lt;{basicData.name}/&gt;</Link>
-            </div>
+            <Link className='font-charmonman text-black dark:text-white text-4xl max-sm:text-xl sm:max-md:text-2xl md:max-lg:text-3xl' to={basicData.siteUrl}>&lt;{basicData.name}/&gt;</Link>
         </>
     );
 };
