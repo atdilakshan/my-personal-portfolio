@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        charmonman: ['"Charmonman"', "cursive"], // Add this line for the Charmonman font
+        charmonman: ['"Charmonman"', "cursive"],
+        ubuntu: ['"Ubuntu"', "sans-serif"],
       },
     },
   },

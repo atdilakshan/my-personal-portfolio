@@ -1,4 +1,4 @@
-//css
+// css
 import './Navbar.css';
 
 // json
@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className="flex justify-between items-center mx-auto p-4 bg-white dark:bg-black" 
+                className="flex justify-between items-center mx-auto p-4 2xl:p-8 bg-white dark:bg-black" 
             >
                 <Brand />
                 <ThemeSwitch />
