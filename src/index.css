@@ -6,4 +6,12 @@
   font-family: "Charmonman";
   src: local("Charmonman"),
     url("./assets/fonts/Charmonman/Charmonman-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: local("Ubuntu"),
+    url("./assets/fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-display: swap;
 }
