@@ -1,6 +1,9 @@
-import './Home.css'
-import About from './components/About';
+// css
+import './Home.css';
+
+// component
 import Hero from './components/Hero';
+// import About from './components/About';
 
 const Home = () => {
     return (
@@ -9,7 +12,7 @@ const Home = () => {
                 className=""
             >
                 <Hero />
-                <About />
+                {/* <About /> */}
             </div>
         </>
     );
