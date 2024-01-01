@@ -3,7 +3,7 @@ import './Home.css';
 
 // component
 import Hero from './components/Hero';
-// import About from './components/About';
+import About from './components/About';
 
 const Home = () => {
     return (
@@ -12,7 +12,7 @@ const Home = () => {
                 className=""
             >
                 <Hero />
-                {/* <About /> */}
+                <About />
             </div>
         </>
     );
