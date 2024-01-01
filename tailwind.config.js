@@ -7,6 +7,9 @@ export default {
         charmonman: ['"Charmonman"', "cursive"],
         ubuntu: ['"Ubuntu"', "sans-serif"],
       },
+      screens: {
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],
