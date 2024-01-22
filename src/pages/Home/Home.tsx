@@ -8,8 +8,12 @@ import Hero from './components/Hero';
 const Home = () => {
     return (
         <>
+        <div
+            className="relative h-screen"
+        >
                 <Hero />
                 {/* <About /> */}
+            </div>
         </>
     );
 };

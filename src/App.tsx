@@ -15,15 +15,15 @@ function App() {
 
   return (
     <>
-      <div className="h-screen bg-white dark:bg-black">
+      <div className="bg-white dark:bg-black">
 
-        <div className="fixed w-full">
+        <div className="fixed w-full z-10">
           <Navbar></Navbar>
         </div>
 
-        <div className="top-[72px] fixed">
+        {/* <div className="top-[72px] fixed z-50"> */}
           <SideBar />
-        </div>
+        {/* </div> */}
 
         <Routes>
           <Route path="/" element={<><Home /></>}></Route>
