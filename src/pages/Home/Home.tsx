@@ -8,9 +8,9 @@ import Hero from './components/Hero';
 const Home = () => {
     return (
         <>
-            <div
-                className=""
-            >
+        <div
+            className="relative h-screen"
+        >
                 <Hero />
                 {/* <About /> */}
             </div>

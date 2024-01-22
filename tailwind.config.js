@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         charmonman: ['"Charmonman"', "cursive"],
         ubuntu: ['"Ubuntu"', "sans-serif"],
+        condensed: ['"Roboto Condensed"', "sans-serif"],
       },
       screens: {
         "3xl": "1920px",
